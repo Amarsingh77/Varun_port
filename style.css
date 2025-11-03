@@ -106,6 +106,7 @@ body {
     .navbar ul.active {
         padding: 15px;
         display: flex;
+        padding: 15px;
     }
 }
 
@@ -437,7 +438,11 @@ body {
     .container { padding: 0; max-width: 100%; }
     .hero-content { display: block; height: auto; }
     .hero-image {object-fit: cover; object-position: top; width: 65%; height: 105%; object-fit: cover; mask-image: none; -webkit-mask-image: none; }
+<<<<<<< HEAD
     .image-container {padding-top:20px;width: 100%; margin-bottom: 16px; height: 320px; display:flex; align-items: center; justify-content: center; align-items: center; min-height: 120px; }
+=======
+    .image-container {width: 100%; margin-bottom: 16px; height: 320px;  display:flex; align-items: center; justify-content: center; align-items: center; min-height: 120px; }
+>>>>>>> 3365ee62d0de491ee92937064277054adcd04dbd
     .text-content, .hero-text { max-width: 100%; padding: 10px 20px; text-align: center; background: none; }
     .text-content h2, .hero-text h2 { font-size: 2.8em; }
     .text-content h3 { font-size: 1.5em; }
@@ -453,7 +458,7 @@ body {
     .description { margin-bottom: 18px; font-size: 0.97em; }
     .buttons { gap: 15px; flex-direction: column; align-items: stretch; width: 100%; }
     .btn { font-size: 1em; width: 100%; }
-    .image-container {width: 100%; margin-bottom: 16px; height: 320px;  display: flex; justify-content: center; align-items: center; min-height: 120px; }
+    .image-container {padding-top:20px; width: 100%; margin-bottom: 16px; height: 320px;  display: flex; justify-content: center; align-items: center; min-height: 120px; }
     .hero-image { border-radius: 12px; }
     .map-container { height: 220px; }
     .footer { font-size: 0.9em; padding: 16px 0 4px 0; margin-top: 32px; }
