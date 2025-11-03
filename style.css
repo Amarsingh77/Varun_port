@@ -1,4 +1,4 @@
-root {
+:root {
     /* --- COLOR PALETTE (DO NOT CHANGE) --- */
     --primary-color: #3aa6ff;
     --primary: #3aa6ff;
@@ -8,8 +8,8 @@ root {
     --card: #0e1328;
     --text-light: #ffffff;
     --white: #ffffff;
-    --text-fade: #a0a0a0; */
-   }
+    --text-fade: #a0a0a0;
+}
 
 /* ---------- RESET ---------- */
 * {
