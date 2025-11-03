@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varun Trehan - Portfolio</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<header class="navbar">
+    <div class="container">
+        <h1 class="logo">Varun.</h1>
+        <nav>
+            <div class="menu-btn"><i class="fas fa-bars"></i></div>
+            <ul>
+                <li><a href="/index.html" class="active">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+    <section id="hero">
+        <div class="container hero-content">
+            <div class="text-content">
+                <p>Hi, I'm</p>
+
+                <h2>Varun Trehan</h2>
+
+                <h3>Assistant Operations Manager @ Teleperformance</h3>
+
+                <p class="description">
+                    Assistant Operations Manager at Teleperformance with 3+ years of driving operational excellence, 
+                    leading teams, and transforming challenges into measurable results. 
+                    Lean Six Sigma Yellow Belt certified — I turn data into strategy, strategy into action, and action into consistent performance. 
+                    I empower teams, optimise processes, and elevate customer experience — because success isn’t just reaching targets, it's raising the standard.
+                </p>
+
+                <div class="buttons">
+                    <a href="/contact.html" class="btn primary">Hire Me</a>
+                    <a href="/contact.html" class="btn secondary">Let's Talk</a>
+                </div>
+
+        <div class="social-icons">
+           <a href="https://www.instagram.com/varun_trehan/" class="icon" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+           <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+           <a href="https://www.linkedin.com/in/varun-trehan/" class="icon" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+       </div>
+            </div>
+
+            <div class="image-container">
+                <img src="IMG_4406.png" alt="Varun Trehan" class="hero-image"> 
+            </div>
+        </div>
+    </section>
+    <script>
+    const menuBtn = document.querySelector('.menu-btn');
+    const navLinks = document.querySelector('.navbar nav ul');
+    menuBtn.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+        menuBtn.querySelector('i').classList.toggle('fa-bars');
+        menuBtn.querySelector('i').classList.toggle('fa-times');
+    });
+</script>
+
+
+</body>
+</html>
